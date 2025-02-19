@@ -1,0 +1,25 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore backups created by the script
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Arma 3 Liberation mission save files (if applicable)
+*.vars
+*.save
+
+# Ignore IDE/editor config files (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
