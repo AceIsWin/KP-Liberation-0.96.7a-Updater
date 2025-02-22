@@ -4,8 +4,8 @@ import shutil
 
 # Define the mapping of new = old replacements
 CLASSNAME_MAP = {
-    "KPLIB_ace": "KP_liberation_ace",
     "KPLIB_ace_crates": "KP_liberation_ace_crates",
+    "KPLIB_ace": "KP_liberation_ace",    
     "KPLIB_addBoat": "KP_liberation_boat_classname",
     "KPLIB_addHeli": "KP_liberation_little_bird_classname",
     "KPLIB_aiResupplySources": "KP_liberation_ace_crates",
@@ -37,7 +37,6 @@ CLASSNAME_MAP = {
     "KPLIB_b_logiStation": "KP_liberation_recycle_building",
     "KPLIB_b_logiTruck": "KP_liberation_truck_classname",
     "KPLIB_b_mobileRespawn": "Respawn_truck_typename",
-    "KPLIB_b_objectsDeco": "buildings",
     "KPLIB_b_potato01": "huron_typename",
     "KPLIB_b_slotHeli": "KP_liberation_heli_slot_building",
     "KPLIB_b_slotPlane": "KP_liberation_plane_slot_building",
@@ -56,7 +55,6 @@ CLASSNAME_MAP = {
     "KPLIB_b_vehStatic": "static_vehicles",
     "KPLIB_b_vehSupport": "support_vehicles",
     "KPLIB_b_vehToUnlock": "elite_vehicles",
-    "KPLIB_c_units": "civilians",
     "KPLIB_c_vehicles": "civilian_vehicles",
     "KPLIB_battlegroup_clearance": "KP_liberation_battlegroup_clearance",
     "KPLIB_battlegroup_size": "GRLIB_battlegroup_size",
@@ -99,7 +97,6 @@ CLASSNAME_MAP = {
     "KPLIB_fuel_max": "KP_liberation_fuel_max",
     "KPLIB_fuel_neutral": "KP_liberation_fuel_neutral",
     "KPLIB_fuel_normal": "KP_liberation_fuel_normal",
-    "KPLIB_height_halo": "KPLIB_range_fob",
     "KPLIB_large_storage_positions": "KP_liberation_large_storage_positions",
     "KPLIB_logiTruck": "KP_liberation_truck_classname",
     "KPLIB_medical_facilities": "KP_liberation_medical_facilities",
